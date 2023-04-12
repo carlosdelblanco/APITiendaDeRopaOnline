@@ -96,6 +96,45 @@ Creo base de datos TIENDAONLINE en sql
 
 ejecutar comando: Scaffold-DbContext "Server=(local);Database=TIENDAONLINE;Integrated Security=True;Encrypt=False" Microsoft.EntityFrameworkCore.SqlServer -OutPutDir Models encrypt=false
 
+## SQL Server
+He creado una base de datos compuesta de dos tablas, por un lado la tabla PRODUCTO y por otro lado la tabla TALLA las cuales se relacionan a traves de la clave foranea IdTalla.
+
+
+CREATE DATABASE TIENDAONLINE
+
+USE TIENDAONLINE
+
+CREATE TABLE TALLA(
+IdTalla int primary key identity(1,1),
+Description varchar(50)
+)
+
+CREATE TABLE PRODUCTO(
+IdProducto int primary key identity(1,1),
+IdTalla int,
+Color varchar(50),
+Precio decimal (10,2),
+Descripcion varchar (50)
+CONSTRAINT FK_IDTALLA FOREIGN KEY (IdTalla) REFERENCES TALLA(IdTalla))
+
+INSERT INTO TALLA(Description) values
+('S'),
+('M'),
+('L'),
+('XL'),
+('XXL')
+
+insert into PRODUCTO(IdTalla, Color, Precio, Descripcion) values
+(1,'Blue',100,'t-shirt'),
+(2,'Red',80,'jeans'),
+(3,'Yellow',110,'jacket'),
+(4,'White',60,'skirt'),
+(5,'Maroon',140,'t-shirt')
+
+SELECT * FROM TALLA
+
+SELECT * FROM PRODUCTO 
+
 
 
 ## Como he aplicado SOLID?
