@@ -18,6 +18,8 @@ http://localhost:5024/api/Producto/List
 
 #### Respuesta
 
+![image](https://user-images.githubusercontent.com/108033668/231489847-6a55fa2a-ee6b-4c46-940d-dd3c359381dd.png)
+
 {
     "mensaje": "ok",
     "response": [
