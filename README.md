@@ -27,9 +27,9 @@ http://localhost:5024/api/Producto/List
 #### Peticion
 `GET api/Producto/get/{idProducto}`
 
-http://localhost:5024/api/Producto/get/2
-<br>
-http://localhost:5024/api/Producto/get/9
+- http://localhost:5024/api/Producto/get/2
+
+- http://localhost:5024/api/Producto/get/9
 
 #### Respuesta
 ![image](https://user-images.githubusercontent.com/108033668/231491207-ecd4a0ed-205d-4505-9ded-ffaa34a77f1b.png)
