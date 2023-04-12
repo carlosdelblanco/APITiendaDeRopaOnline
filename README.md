@@ -17,7 +17,7 @@ El entorno utilizado ha sido Visual Studio 17.5.3, para la base de datos SQL Man
 http://localhost:5024/api/Producto/List
 
 #### Respuesta
-`
+
 {
     "mensaje": "ok",
     "response": [
@@ -89,7 +89,7 @@ http://localhost:5024/api/Producto/List
         }
     ]
 }
-`
+
 
 ### Obtener producto por id
 
