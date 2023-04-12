@@ -40,22 +40,28 @@ http://localhost:5024/api/Producto/List
 ### Guardar producto
 
 #### Peticion
-api/Producto/List
+`GET api/Producto/Guardar`
 
+- http://localhost:5024/api/Producto/Guardar
 
 #### Respuesta
 
-api/Producto/Guardar
+
 
 ### Editar producto
 
 #### Peticion
-api/Producto/List
+`PUT api/Producto/Editar`
 
+Solo cambia los campos indicados
 
 #### Respuesta
+![image](https://user-images.githubusercontent.com/108033668/231593721-e70c14a4-b9bf-4130-9624-2e55d13b50ef.png)
 
-api/Producto/Editar
+![image](https://user-images.githubusercontent.com/108033668/231593478-aa1dc6d8-5aae-4ed2-8d31-14d23afcd600.png)
+
+
+
 
 ### Eliminar producto
 
