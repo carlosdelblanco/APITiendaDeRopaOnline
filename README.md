@@ -19,78 +19,7 @@ http://localhost:5024/api/Producto/List
 #### Respuesta
 
 ![image](https://user-images.githubusercontent.com/108033668/231489847-6a55fa2a-ee6b-4c46-940d-dd3c359381dd.png)
-
-{
-    "mensaje": "ok",
-    "response": [
-        {
-            "idProducto": 1,
-            "idTalla": 1,
-            "color": "Blue",
-            "precio": 100.00,
-            "descripcion": "t-shirt",
-            "objectTalla": {
-                "idTalla": 1,
-                "description": "S"
-            }
-        },
-        {
-            "idProducto": 2,
-            "idTalla": 2,
-            "color": "Red",
-            "precio": 80.00,
-            "descripcion": "jeans",
-            "objectTalla": {
-                "idTalla": 2,
-                "description": "M"
-            }
-        },
-        {
-            "idProducto": 3,
-            "idTalla": 3,
-            "color": "Yellow",
-            "precio": 110.00,
-            "descripcion": "jacket",
-            "objectTalla": {
-                "idTalla": 3,
-                "description": "L"
-            }
-        },
-        {
-            "idProducto": 4,
-            "idTalla": 4,
-            "color": "White",
-            "precio": 60.00,
-            "descripcion": "skirt",
-            "objectTalla": {
-                "idTalla": 4,
-                "description": "XL"
-            }
-        },
-        {
-            "idProducto": 5,
-            "idTalla": 5,
-            "color": "Maroon",
-            "precio": 140.00,
-            "descripcion": "t-shirt",
-            "objectTalla": {
-                "idTalla": 5,
-                "description": "XXL"
-            }
-        },
-        {
-            "idProducto": 10,
-            "idTalla": 2,
-            "color": "maroon",
-            "precio": 105.00,
-            "descripcion": "camisa a rayas",
-            "objectTalla": {
-                "idTalla": 2,
-                "description": "M"
-            }
-        }
-    ]
-}
+![image](https://user-images.githubusercontent.com/108033668/231490286-3d3b870b-f6b5-45a4-ad9f-fd0cef4129fe.png)
 
 
 ### Obtener producto por id
