@@ -1,4 +1,6 @@
-# APITiendaDeRopaOnline
+# REST API APITiendaDeRopaOnline
+
+`ProductoController.cs` contiene los endpoints para crear, editar, eliminar y obtener productos.
 
 ## Pasos para la creacion de la API REST:
 
