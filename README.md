@@ -25,12 +25,16 @@ http://localhost:5024/api/Producto/List
 ### Obtener producto por id
 
 #### Peticion
-api/Producto/List
+`GET api/Producto/get/{idProducto}`
 
+http://localhost:5024/api/Producto/get/2
+http://localhost:5024/api/Producto/get/9
 
 #### Respuesta
+![image](https://user-images.githubusercontent.com/108033668/231491207-ecd4a0ed-205d-4505-9ded-ffaa34a77f1b.png)
 
-api/Producto/get/{idProducto}
+![image](https://user-images.githubusercontent.com/108033668/231491111-59cc3f0f-7d20-40da-bc73-7cc603a63ad6.png)
+
 
 ### Guardar producto
 
