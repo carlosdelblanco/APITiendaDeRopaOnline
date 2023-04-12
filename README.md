@@ -97,7 +97,7 @@ Creo base de datos TIENDAONLINE en sql
 ejecutar comando: Scaffold-DbContext "Server=(local);Database=TIENDAONLINE;Integrated Security=True;Encrypt=False" Microsoft.EntityFrameworkCore.SqlServer -OutPutDir Models encrypt=false
 
 ## SQL Server
-He creado una base de datos compuesta de dos tablas, por un lado la tabla PRODUCTO y por otro lado la tabla TALLA las cuales se relacionan a traves de la clave foranea IdTalla.
+He creado una base de datos TIENDAONLINE compuesta de dos tablas, por un lado la tabla PRODUCTO y por otro lado la tabla TALLA las cuales se relacionan a traves de la clave foranea IdTalla.
 
 
 CREATE DATABASE TIENDAONLINE
@@ -134,7 +134,6 @@ insert into PRODUCTO(IdTalla, Color, Precio, Descripcion) values
 SELECT * FROM TALLA
 
 SELECT * FROM PRODUCTO 
-
 
 
 ## Como he aplicado SOLID?
