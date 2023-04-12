@@ -66,12 +66,18 @@ Solo cambia los campos indicados
 ### Eliminar producto
 
 #### Peticion
-api/Producto/List
+`DELETE api/Producto/Eliminar/{idProducto}`
 
+- http://localhost:5024/api/Producto/Eliminar/10
+
+- http://localhost:5024/api/Producto/Eliminar/11
 
 #### Respuesta
+![image](https://user-images.githubusercontent.com/108033668/231594412-675c16a2-6e2c-43ca-9fef-ab5e7080d48e.png)
 
-api/Producto/Eliminar/{idProducto}
+![image](https://user-images.githubusercontent.com/108033668/231594237-46daf2e2-2592-4a56-9468-7945b1701459.png)
+
+
 
 
 ## Pasos para la creacion de la API REST:
