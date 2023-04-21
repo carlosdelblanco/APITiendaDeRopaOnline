@@ -137,14 +137,14 @@ SELECT * FROM PRODUCTO
 
 
 ## Como he aplicado SOLID?
-El Principio de responsabilidad única lo he aplicado mediante haber separado controller, modelos y el propio programa principal, asi en caso de crecer la base de datos y necesitar otro controlador se haria en una clase nueva.
+El principio de responsabilidad única lo he aplicado mediante haber separado controller, modelos y el propio programa principal, asi en caso de crecer la base de datos y necesitar otro controlador se haria en una clase nueva.
 
-El principio Open/Closed se podria aplicar mediante una interfaz, en caso de necesitar añadir mas caracteristicas a la API como por ejemplo gestionar las peticiones.
+El principio Open/Closed se podria aplicar mediante una interfaz, en caso de necesitar añadir mas características a la API como por ejemplo gestionar las peticiones.
 
-El principio de sustitucion de Liskov se aplica ya que no hay clases derivadas que cambien el comportamiento de la clase base.
+El principio de sustitución de Liskov se aplica ya que no hay clases derivadas que cambien el comportamiento de la clase base, por ejemplo entre la clase producto y la clase talla.
 
-El principio de segregación de interfaz la aplicariamos en caso de necesitar interfaces para la gestión de nuestras peticiones HTTP implementando solo las necesarias, una para obtener el listado otra para borrar otra para modificar ....
+El principio de segregación de interfaz la aplicariamos en caso de necesitar interfaces para la gestión de nuestras peticiones HTTP implementando solo las necesarias, es decir,  una para obtener el listado otra para borrar otra para modificar ....
 
-El principio de inversion de dependencia lo aplico ya que no hay diferentes niveles de modulos por lo que no hay acoplamiento de clases, no hay dependencia entre ellas, pero si existiera deberian depender solo de abstracciones.
+El principio de inversión de dependencia lo aplico ya que no hay diferentes niveles de modulos por lo que no hay acoplamiento de clases, no hay dependencia entre ellas, pero si existiera deberian depender sólo de abstracciones.
 
 
